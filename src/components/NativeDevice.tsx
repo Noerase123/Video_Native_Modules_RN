@@ -14,6 +14,7 @@ interface IDeviceServiceModule {
   ): void;
 }
 
+// Native Callback Info as Native Module
 const deviceService = DeviceServiceModule as IDeviceServiceModule;
 
 export function NativeLocation() {

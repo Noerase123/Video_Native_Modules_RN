@@ -17,6 +17,7 @@ export const VideoPlayer = () => {
 
   const handlePlayVideo = () => {
     const videoURL = 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4';
+    // Video Player Native Module
     VideoPlayerBridge.renderVideoFromUrl(videoURL);
   };
 
